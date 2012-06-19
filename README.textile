@@ -1,0 +1,42 @@
+h1. The smallest plugin system ever
+
+This project is superseded by "Spring Plugin":https://github.com/SpringSource/spring-plugin
+
+To get started with Hera read this short introductory "blog post":http://www.olivergierke.de/wordpress/2008/10/09/the-smallest-plugin-system-ever/ or browse through the document#1. Check out the "news":http://redmine.synyx.org/news/show/9 for latest changes.
+
+h2. Downloads
+
+* "hera-core-0.5 - binary":http://repo.synyx.org/org/synyx/hera/org.synyx.hera.core/0.5/org.synyx.hera.core-0.5.jar
+* "hera-core-0.5 - sources":http://repo.synyx.org/org/synyx/hera/org.synyx.hera.core/0.5/org.synyx.hera.core-0.5-sources.jar
+* "hera-core-0.5 - javadoc":http://repo.synyx.org/org/synyx/hera/org.synyx.hera.core/0.5/org.synyx.hera.core-0.5-javadoc.jar - ("browse":http://hera.synyx.org/static/site/org.synyx.hera.core/apidocs/index.html directly)
+
+h3. Source code repository
+
+You can "browse the codebase of Hera directly in your web browser":http://redmine.synyx.org/projects/hera/repository or clone it to your local machine with:
+
+
+h2. Maven integration
+
+To use Hera in your Maven project you need to add Synyx Maven repository to your list of repositories:
+<pre><code class="xml">
+<repository>
+  <id>maven2.synyx.repository</id>
+  <name>Synyx Maven2 Repository</name>
+  <url>http://repo.synyx.org</url>
+</repository>
+</code></pre>
+
+After that integrating Hera is just a matter of declaring the dependency:
+<pre><code class="xml">
+<dependency>
+  <groupId>org.synyx.hera</groupId>
+  <artifactId>org.synyx.hera.core</artifactId>
+  <version>0.5</version>
+</dependency>
+</code></pre>
+
+h2. Further documents
+
+* "Continuous Integration":http://ci.synyx.org/jenkins/job/Hera/
+* "Maven site":http://hera.synyx.org/static/site/index.html
+* document#1

@@ -1,6 +1,6 @@
 h1. The smallest plugin system ever
 
-This project is superseded by "Spring Plugin":https://github.com/SpringSource/spring-plugin
+*NOTE*: This project is superseded by "Spring Plugin":https://github.com/SpringSource/spring-plugin
 
 To get started with Hera read this short introductory "blog post":http://www.olivergierke.de/wordpress/2008/10/09/the-smallest-plugin-system-ever/ or browse through the document#1. Check out the "news":http://redmine.synyx.org/news/show/9 for latest changes.
 
